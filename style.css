@@ -1,0 +1,197 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #f8eece;
+}
+
+#progress{
+	display: flex;
+	position: relative;
+	top: -20px;
+	height: 75px;
+	width: 100%;
+	
+
+}
+
+#progress-bar {
+	margin: auto;
+	height: 10px;
+	width: 860px;
+}
+
+.plane-img {
+
+	position: absolute;
+	left: 120px;
+	background-image: url("airplane.png");
+	background-repeat: no-repeat;
+	background-size: 100px;
+	width: 100px;
+	height: 75px;
+}
+
+
+
+.main-container{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.content-container {
+	margin: 5% auto 0 auto;
+	width: 850px;
+	height: auto;
+	position: relative;
+
+
+}
+.top-header {
+	position: relative;
+	width: 100%;
+	height: 60px;
+	background-color: #909a4a;
+	border-bottom: 5px solid #6c7434;
+}
+
+.top-header p {
+	line-height: 60px;
+	font-family: intro;
+	font-size: 1.5em;
+	color: white;
+}
+
+.quiz-title {
+	background-image: url("title-img.png");
+	background-repeat: no-repeat;
+	background-size: 850px;
+	height: 130px;
+	width: 850px;
+	margin: 0 auto;
+
+
+}
+
+.quiz-container{
+	position: relative;
+	margin: 0;
+	text-align: center;
+	position: relative;
+	background-color: #f8eece;
+	width: 500px;
+	
+	font-family: raleway;
+}
+
+.question {
+	font-weight: bold;
+}
+
+.question-container {
+	box-sizing: border-box;
+	padding-top: 10%;
+	float: left;
+	width: 525px;
+	margin: 0 auto;
+	min-height: 425px;
+
+}
+
+.question-container li{
+	list-style: none;
+}
+
+.question-container .question {
+	font-size: 1.2em;
+	font-weight: bold;
+	
+}
+
+
+ul a{
+	display: inline-block;
+	width: 300px;
+}
+
+
+.answers li{
+	
+	margin: 10px auto;
+
+}
+
+.answers a {
+
+	text-decoration: none;
+	color: black;
+}
+
+
+.answers a:link {
+	color: black;
+}
+
+.answers a:active {
+	color: white;
+}
+
+.answers a:hover {
+	background-color: rgba(255,255,255, 0.4);
+}
+
+.hide {
+	display: none;
+}
+
+.btn-container {
+	margin-left: 200px;
+	
+	width: 130px;
+	
+
+}
+
+.btn-container a{
+	color: white;
+	text-decoration: none;
+}
+
+.previous {
+	background-color: #909a4a;
+	padding: 5px;
+	border-bottom: 1px solid white;
+	float: left;
+}
+
+.next {
+	background-color: #909a4a;
+	padding: 5px;
+	border-bottom: 1px solid white;
+	float: right;
+}
+
+.btnStart{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 5px;
+	border-bottom: 1px solid white;
+	background-color: #909a4a;;
+	color:white;
+
+}
+
+
+
+.suitcase-image{
+	background-repeat: no-repeat;
+	background-image: url("luggage.png");
+	width: 320px;
+	min-height: 425px;
+	float: right;
+}
