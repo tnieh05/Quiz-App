@@ -30,7 +30,6 @@ $(document).ready(function(){
 		});
 	})
 
-
 	var correct = { 
 		answers: ["b", "d", "d", "c", "d", "b"]
 	}
