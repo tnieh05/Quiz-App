@@ -4,8 +4,6 @@
 	<meta charset="UTF-8">
 	<title>Around the world quiz!</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="jquery-2.1.4.min.js"></script>
-	<script src="script.js"></script>
 </head>
 <body>
 	<div class="main-container">
@@ -28,11 +26,11 @@
 					<div class="question-container hide">
 						<div class="question">What is the Eiffel tower made of?</div>
 							<ul class="answers">
-								<li><a href="#" data-key="a">Steel</a></li>
-								<li><a href="#" data-key="b">Iron</a></li>
-								<li><a href="#" data-key="c">Aluminum</a></li>
-								<li><a href="#" data-key="d">Copper</a></li>
-								<li><a href="#" data-key="e">Wood</a></li>
+								<li><a href="#" data-key="a" class="">Steel</a></li>
+								<li><a href="#" data-key="b" class="">Iron</a></li>
+								<li><a href="#" data-key="c" class="">Aluminum</a></li>
+								<li><a href="#" data-key="d" class="">Copper</a></li>
+								<li><a href="#" data-key="e" class="">Wood</a></li>
 							</ul>
 						<div class="btn-container">
 							<div class="next">
@@ -43,13 +41,13 @@
 						</div>
 					</div>
 					<div class="question-container hide">
-						<div class="question">Which country has the most 7-elevens?</div>
+						<div class="question">What is California's nickname?</div>
 							<ul class="answers">
-								<li><a href="#" data-key="a">USA</a></li>
-								<li><a href="#" data-key="b">Thailand</a></li>
-								<li><a href="#" data-key="c">Taiwan</a></li>
-								<li><a href="#" data-key="d">Japan</a></li>
-								<li><a href="#" data-key="e">Canada</a></li>
+								<li><a href="#" data-key="a">The Golden State</a></li>
+								<li><a href="#" data-key="b">The Sunshine State</a></li>
+								<li><a href="#" data-key="c">The Orange State</a></li>
+								<li><a href="#" data-key="d">The Friendly State</a></li>
+								<li><a href="#" data-key="e">The Natural State</a></li>
 							</ul>
 						<div class="btn-container">
 							<div class="previous">
@@ -63,13 +61,13 @@
 						</div>
 					</div>
 					<div class="question-container hide">
-						<div class="question">What is the most visited country in the world?</div>
+						<div class="question">Which country has the longest coastline?</div>
 							<ul class="answers">
-								<li><a href="#" data-key="a">Japan</a></li>
-								<li><a href="#" data-key="b">Spain</a></li>
-								<li><a href="#" data-key="c">USA</a></li>
-								<li><a href="#" data-key="d">France</a></li>
-								<li><a href="#" data-key="e">Italy</a></li>
+								<li><a href="#" data-key="a">Canada</a></li>
+								<li><a href="#" data-key="b">Russia</a></li>
+								<li><a href="#" data-key="c">China</a></li>
+								<li><a href="#" data-key="d">United States</a></li>
+								<li><a href="#" data-key="e">Chile</a></li>
 							</ul>
 						<div class="btn-container">
 							<div class="previous">
@@ -123,13 +121,13 @@
 						</div>
 					</div>
 					<div class="question-container hide">
-						<div class="question">What is another name for the "Mona Lisa"?</div>
+						<div class="question">What is the longest river in the world?</div>
 							<ul class="answers"> 
-								<li><a href="#" data-key="a">La Belle</a></li>
-								<li><a href="#" data-key="b">La Jaconde</a></li>
-								<li><a href="#" data-key="c">Sourire</a></li>
-								<li><a href="#" data-key="d">La Femme</a></li>
-								<li><a href="#" data-key="e">La Louvre</a></li>
+								<li><a href="#" data-key="a">Mississippi River</a></li>
+								<li><a href="#" data-key="b">Amazon River</a></li>
+								<li><a href="#" data-key="c">Yangtze River</a></li>
+								<li><a href="#" data-key="d">Nile River</a></li>
+								<li><a href="#" data-key="e">Yellow River</a></li>
 							</ul>
 						<div class="btn-container">
 							<div class="previous">
@@ -142,22 +140,26 @@
 							</div>
 						</div>
 					</div>
+					<div id="results-container" class="question-container hide">
+						<div class="showResults">
+							<h1>Results</h1>
+							<br>
+							<p> You got <span class="answrs-correct"> out of <span class="total-answrs"> correct!</p>
+						</div>
+					</div>
 			</div>
 
 				<div class="suitcase-image"></div>
 		</div>
-		<div id="results-container" class="question-container hide">
-			<div class="showResults">
 
-			</div>
-		</div>
 
 
 
 	</div>
+	<script src="jquery-2.1.4.min.js"></script>
+	<script src="script.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
 	
 </body>
 </html>

@@ -9,8 +9,6 @@ body{
 	background-color: #d7e7e9;
 }
 
-
-
 #progress{
 	display: flex;
 	position: relative;
@@ -55,12 +53,13 @@ body{
 
 }
 .clouds {
-	background-image: url("clouds.png");
+	background-image: url("bouncyclouds.png");
 	width: 100%;
 	height: 60px;
 
 }
 .top-header {
+	background-image: url("stillclouds1.png");
 	position: relative;
 	width: 100%;
 	height: 60px;
@@ -93,12 +92,17 @@ body{
 	position: relative;
 	background-color: #f8eece;
 	width: 500px;
-	
 	font-family: raleway;
 }
 
+#first-page {
+	padding-top: 200px;
+}
 .question {
+	margin-top: 50px;
 	font-weight: bold;
+
+
 }
 
 .question-container {
@@ -145,13 +149,22 @@ ul a{
 	color: black;
 }
 
-.answers a:active {
-	color: white;
-}
 
 .answers a:hover {
 	background-color: rgba(255,255,255, 0.4);
 }
+
+.answers a:active {
+	color: #416177;
+}
+
+
+.highlight {
+	background-color: rgba(255,255,255, 0.4);
+}
+
+
+
 
 .hide {
 	display: none;
